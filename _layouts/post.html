@@ -10,11 +10,12 @@
 	<main class="post">
 	
 		<div class="content"> 
-			
+			{{page.lang}}
+			{{site.lang}}
 			<h1><a href="/">
-				{% if site.lang == "ru" %}
+				{% if site.lang[page.lang] == "ru" %}
 					{{ site.name_ru }}
-				{% elsif site.lang == "en" %}
+				{% elsif site.lang[page.lang] == "en" %}
 					{{ site.name_en }}
 				{% endif %}
 			</a></h1>
