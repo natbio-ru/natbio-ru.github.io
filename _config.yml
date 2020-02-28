@@ -1,4 +1,6 @@
 name: National Biodiversity and Biosafety of Russia
+name_en: National Biodiversity and Biosafety of Russia
+name_ru: Национальное биоразнообразие и биобезопасность России
 permalink: /posts/:title
 plugins:
   - jekyll-multiple-languages-plugin

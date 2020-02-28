@@ -13,9 +13,9 @@
 			
 			<h1><a href="/">
 				{% if site.lang == "ru" %}
-					{% global.russian %}
+					{{ site.name_ru }}
 				{% elsif site.lang == "en" %}
-					{% global.english %}
+					{{ site.name_en }}
 				{% endif %}
 			</a></h1>
 			
