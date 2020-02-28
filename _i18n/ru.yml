@@ -1,6 +1,6 @@
-name: National Biodiversity and Biosafety of Russia
-permalink: /posts/:title
-plugins:
-  - jekyll-multiple-languages-plugin
-languages: ["ru", "en"]
-exclude_from_localizations: ["javascript", "images", "css"]
+global:
+    russian: Имя на русском
+    tagline: Русский
+    about: О нас
+    twitter: Twitter
+    github: GitHub
