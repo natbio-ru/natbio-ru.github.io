@@ -1,5 +1,6 @@
 name: Национальные биоразнообразие и биобезопасность России
 lang: ru
+theme: minima
 name_en: National Biodiversity and Biosafety of Russia
 name_ru: Национальное биоразнообразие и биобезопасность России
 permalink: /posts/:title
