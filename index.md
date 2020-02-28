@@ -1,6 +1,6 @@
 ---
 layout: base
-title: "About Yura Zatsepin"
+title: Test Natbio
 ---
 
 # Test
