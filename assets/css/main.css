@@ -149,7 +149,7 @@ h1.header__site-name {color:#1a69a1;}
 
 /* ФУТЕР ---------------------------------------- */
 /* ФУТЕР ---------------------------------------- */
-#footer {position:relative;clear:both;max-width:1000px;margin:0 auto;padding:35px 30px 40px 30px;background-color:#dfeaf2;}
+#footer {clear:both;text-align:center;padding:35px 30px 40px 30px;background-color:#dfeaf2;}
 #footer h3 {margin:30px 0 15px;}
 
 #footer a, #footer-briefly li, #footer .jlink {color:#2b267b;border-color:#2b267b;}
