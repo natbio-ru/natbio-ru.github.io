@@ -15,11 +15,9 @@ h1,h2,h3, .breadcrumbs {color:#212529;}
 
 p  		{word-break:keep-all;}
 
-.content h1 {margin:30px 0 16px;padding-bottom:7px;border-bottom:1px solid #eaecef;}
-.content h2 {margin-bottom:16px;padding:20px 0 2px;border-bottom:1px solid #eaecef;}
-.content h2.content__title {margin-bottom:16px;padding-top:0;border-bottom:none;}
-.content h2.blog__title {padding-top:0;}
-.content h3, .content h4 {clear:both;margin-bottom:12px;padding-top:20px;}
+.content h1 {margin:5px 0 16px;padding-bottom:7px;}
+.content h2 {margin-bottom:16px;padding:0 0 2px;border-bottom:1px solid #eaecef;}
+.content h3 {clear:both;margin-bottom:12px;padding-top:20px;}
 
 .content h2:not(.content__title) + h3 {padding-top:0;}
 .content h2.content__title + h3 {padding-top:25px;}
