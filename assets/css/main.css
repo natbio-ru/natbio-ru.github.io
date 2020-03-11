@@ -88,7 +88,6 @@ a[target="_blank"], a.external	{cursor:url("data:image/x-icon;base64,AAACAAEAICA
 /* --- ШАБЛОН ---------------------- */
 /* --- ШАБЛОН ---------------------- */
 /* --- ШАБЛОН ---------------------- */
-.main {/*display:flex;flex-direction:column;align-items:center;*/}
 .content {max-width:1000px;margin:0 auto;padding:35px 30px 40px 30px;}
 .template-blog-item .intro {margin-top:25px;}
 #map {width:100%;width:calc(100% + 60px);min-width:200px;height:400px;margin:20px -30px 35px;background-color:#d3e3fc;}
@@ -150,7 +149,7 @@ h1.header__site-name {color:#1a69a1;}
 
 /* ФУТЕР ---------------------------------------- */
 /* ФУТЕР ---------------------------------------- */
-#footer {position:relative;clear:both;background-color:#dfeaf2;}
+#footer {position:relative;clear:both;max-width:1000px;margin:0 auto;padding:35px 30px 40px 30px;background-color:#dfeaf2;}
 #footer h3 {margin:30px 0 15px;}
 
 #footer a, #footer-briefly li, #footer .jlink {color:#2b267b;border-color:#2b267b;}
