@@ -23,7 +23,9 @@ p  		{word-break:keep-all;}
 .content ul > li:not(:last-child) {margin-bottom:5px;}
 .content ul > li:last-child > p {margin-bottom:0;}
 
-.content p:not(.intro) {margin-bottom:15px;padding-bottom:10px;}
+.main .content ul {margin-top:35px;}
+
+.content p {margin-bottom:15px;padding-bottom:10px;line-height:29px;}
 
 .content p+blockquote {margin-top:25px;}
 .content p.last-edited {margin-top:50px;}
