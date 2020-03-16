@@ -231,8 +231,12 @@ h1.header__site-name {color:#1a69a1;}
 
 
 /* BLOG --- */
-#blogcontent {list-style-type:none;margin-left:0;}
-#blogcontent li {margin-bottom:50px;}
+.blogcontent {list-style-type:none;margin-left:0;}
+.blogcontent li {margin-bottom:50px;}
+.content ul.blogcontent {list-style-type:none;margin-left:0;}
+.content ul.blogcontent > li:not(:last-child) {margin-bottom:40px;}
+.content h2.post__title {margin-bottom:16px;padding-top:20px;padding-bottom:2px;border-bottom:1px solid #eaecef;}
+.content p.post__date {margin-bottom:15px;padding-bottom:10px;}
 
 
 #blog-paginator-wrapper {border-top:5px solid #bdbadd;margin:0 0 48px;}

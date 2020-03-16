@@ -14,9 +14,16 @@
 			<h1>{{ site.title }}</h1>
 			<h2>{{ site.description }}</h2>
 			
-			<ul>
+			<ul class="blogcontent">
+			{%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
 			{% for post in site.posts %}
-			<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+			<li>
+				<h2 class="post__title">
+					<a href="{{ post.url }}">{{ post.title }}</a>
+				</h2>
+				<p class="post__date"><small>{{ post.date | date: date_format }}</small></p>
+				<p>Content</p>
+			</li>
 			{% endfor %}
 			</ul>
 
