@@ -16,7 +16,7 @@ h1,h2,h3, .breadcrumbs {color:#212529;}
 p  		{word-break:keep-all;}
 
 .content h1 {padding-bottom:7px;}
-.content h2 {margin-bottom:16px;padding:0 0 2px;border-bottom:1px solid #eaecef;}
+.content h2 {}
 .content h3 {clear:both;margin-bottom:12px;padding-top:20px;}
 
 .content ul {margin-bottom:15px;padding-bottom:10px;margin-left:35px;list-style-type:disc;}
@@ -235,7 +235,7 @@ h1.header__site-name {color:#1a69a1;}
 .blogcontent li {margin-bottom:50px;}
 .content ul.blogcontent {list-style-type:none;margin-left:0;}
 .content ul.blogcontent > li:not(:last-child) {margin-bottom:40px;}
-.content h2.post__title {margin-bottom:16px;padding-top:20px;padding-bottom:2px;border-bottom:1px solid #eaecef;}
+.content h2.post__title {padding-top:20px;padding-bottom:2px;border-bottom:1px solid #eaecef;}
 .content p.post__date {margin-bottom:15px;padding-bottom:10px;}
 
 
