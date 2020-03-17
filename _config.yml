@@ -5,6 +5,19 @@ name_en:        National Biosafety of Russia
 name_ru:        Национальная биобезопасность России
 
 date_format:    "%b %-d, %Y"
+months:
+    - Январь
+    - Февраль
+    - Март
+    - Апрель
+    - Май
+    - Июнь
+    - Июль
+    - Август
+    - Сентябрь
+    - Октябрь
+    - Ноябрь
+    - Декабрь
 
 # jekyll-paginate configuration
 paginate:       5

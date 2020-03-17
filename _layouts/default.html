@@ -4,7 +4,6 @@
 
 {% include head.html %}
 
-
 <body id="body">
 
 	<main class="main">
@@ -17,11 +16,19 @@
 			<ul class="blogcontent">
 			{%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
 			{% for post in site.posts %}
+			
+			{% capture i18n_date %}
+			{{ post.date | date: "%-d" }}
+			{% assign m = post.date | date: "%-m" | minus: 1 %}
+			{{ site.months[m] }}
+			{{ post.date | date: "%Y" }}
+			{% endcapture %}
+			
 			<li>
 				<h2 class="post__title">
 					<a href="{{ post.url }}">{{ post.title }}</a>
 				</h2>
-				<p class="post__date"><small>{{ post.date | date: date_format }}</small></p>
+				<p class="post__date"><small>{{ i18n_date }}</small></p>
 				<p>Content</p>
 			</li>
 			{% endfor %}
