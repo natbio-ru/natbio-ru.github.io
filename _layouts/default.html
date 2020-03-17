@@ -17,12 +17,16 @@
 			{%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
 			{% for post in site.posts %}
 			
-			{% capture i18n_date %}
-			{{ post.date | date: "%-d" }}
-			{% assign m = post.date | date: "%-m" | minus: 1 %}
-			{{ site.months[m] }}
-			{{ post.date | date: "%Y" }}
-			{% endcapture %}
+			{%- capture i18n_date -%}
+				
+				{% assign m = post.date | date: "%-m" | minus: 1 %}
+				{{ site.months[m] }},
+			
+				{{ post.date | date: "%-d" }},
+			
+				{{ post.date | date: "%Y" }}
+				
+			{%- endcapture -%}
 			
 			<li>
 				<h2 class="post__title">
