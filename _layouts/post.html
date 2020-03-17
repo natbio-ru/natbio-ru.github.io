@@ -9,10 +9,19 @@
 	
 		<div class="content"> 
 
-			<h1><a href="/">{{ site.title }}</a></h1>
-			<h2>{{ site.description }}</h2>
+			<h1 class="body__title"><a href="/">{{ site.title }}</a></h1>
+			<h2 class="body__description">{{ site.description }}</h2>
 			
 			<h3>{{ page.title }}</h3>
+			
+			{%- capture i18n_date -%}
+			{{ post.date | date: "%Y" }},
+			{% assign m = post.date | date: "%-m" | minus: 1 %}
+			{{ site.months[m] }},
+			{{ post.date | date: "%-d" }}			
+			{%- endcapture -%}
+			
+			<p class="post__date"><small>{{ i18n_date }}</small></p>
 			
 			{{ content }}
 
