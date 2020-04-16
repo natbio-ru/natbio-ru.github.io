@@ -23,9 +23,7 @@ paginate:       5
 collections:
     posts:
         output: true
-        permalink: /:collection/:title.html
-        #--default permalink
-        #natbio.ru/2019/10/11/title.html
+        permalink: /:collection/:year/:month/:date/:title.html
 
 # Build settings
 markdown:       kramdown
