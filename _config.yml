@@ -23,7 +23,7 @@ paginate:       5
 collection:
     posts:
         #output: true
-        #permalink: /:collection/:name:html
+        permalink: /posts/:name:html
 
 # Build settings
 markdown:       kramdown
