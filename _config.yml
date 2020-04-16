@@ -20,10 +20,10 @@ months:
 # jekyll-paginate configuration
 paginate:       5
 
-collection:
+collections:
     posts:
-        #output: true
-        permalink: /posts/:name:html
+        output: true
+        permalink: /:collection/:year/:month/:day/:name:html
 
 # Build settings
 markdown:       kramdown
