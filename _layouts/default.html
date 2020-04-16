@@ -18,10 +18,10 @@
 			{% for post in site.posts %}
 			
 			{%- capture i18n_date -%}
-			{{ post.date | date: "%Y" }},
-			{% assign m = post.date | date: "%-m" | minus: 1 %}
-			{{ site.months[m] }},
-			{{ post.date | date: "%-d" }}			
+				{{ post.date | date: "%Y" }},
+				{% assign m = post.date | date: "%-m" | minus: 1 %}
+				{{ site.months[m] }},
+				{{ post.date | date: "%-d" }}			
 			{%- endcapture -%}
 			
 			<li>
