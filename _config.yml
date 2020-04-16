@@ -22,10 +22,14 @@ months:
 # jekyll-paginate configuration
 paginate:       5
 
+collection:
+    posts:
+        output: true
+        permalink: /posts/:title:html
+
 # Build settings
 markdown:       kramdown
 highlighter:    rouge
-permalink:      /posts/:title/
 plugins:        [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Styles
