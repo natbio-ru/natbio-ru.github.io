@@ -1,8 +1,6 @@
 title:          "Натбио"
 description:    "Национальная биобезопасность России"
 lang:           ru
-name_en:        National Biosafety of Russia
-name_ru:        Национальная биобезопасность России
 
 date_format:    "%b %-d, %Y"
 months:
@@ -24,7 +22,7 @@ paginate:       5
 
 collection:
     posts:
-        output: true
+        #output: true
         permalink: /:collection/:name:html
 
 # Build settings
@@ -32,10 +30,6 @@ markdown:       kramdown
 highlighter:    rouge
 plugins:        [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
-# Styles
-#sass:
-#  sass_dir:     assets/css
-#  style:        :nested
 
 # RSS/Atom (this is where Jekyll-Feed gets configuration information)
 author:         "Натбио"
