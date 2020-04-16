@@ -23,7 +23,7 @@ paginate:       5
 collections:
     posts:
         output: true
-        permalink: /:collection/date
+        permalink: /:collection/:year
 
 # Build settings
 markdown:       kramdown
