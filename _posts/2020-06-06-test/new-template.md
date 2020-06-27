@@ -4,4 +4,4 @@ title: test
 ---
 
 test test
-![pic image]({{file.path}}pic.jpg){:class="img-width100"}
+![pic image]({{file.path}}/pic.jpg){:class="img-width100"}
