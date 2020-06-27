@@ -1,7 +1,7 @@
 ---
 layout: post
-title: test
+title: post title test title
 ---
 
 test test
-![pic image]({{post.url}}/pic.jpg){:class="img-width100"}
+![{{post.title}}]({{post.url}}/pic.jpg){:class="img-width100"}
