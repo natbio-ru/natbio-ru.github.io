@@ -4,4 +4,4 @@ title: post title test title
 ---
 
 test test
-![{{post.title}}]({{post.url | append: "/pic.jpg"}}){:class="img-width100"}
+![{{post.title}}]({{page.url | append: "/pic.jpg"}}){:class="img-width100"}
