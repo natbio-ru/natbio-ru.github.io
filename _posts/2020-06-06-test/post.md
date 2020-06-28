@@ -2,7 +2,9 @@
 title: new post alone file
 ---
 
-edit link = {% raw %}{% github_edit_link %}{% endraw %}
+<p>This site is open source. {% raw %}{% github_edit_link "Improve this page" %}{% endraw %}</p>
+
+<p>This site is open source. <a href="{% raw %}{% github_edit_link %}{% endraw %}">Improve this page</a></p>
 
 edit link 2 = {% raw %}{% github_edit_link "Improve this page" %}{% endraw %}
 
