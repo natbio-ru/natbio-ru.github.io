@@ -10,3 +10,5 @@ site.github.url = {{site.github.url}}
 site.github.baseurl = {{site.github.baseurl}}
 
 site.doc_root = {{site.doc_root}}
+
+site.github = {{site.github}}
