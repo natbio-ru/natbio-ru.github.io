@@ -2,9 +2,6 @@
 title: new post alone file
 ---
 
-New post alone file
-![test image]({{site.doc_root}}/_posts/2020-06-06-test/pic.jpg)
-
 site.github.url = {{site.github.url}}
 
 site.github.baseurl = {{site.github.baseurl}}
@@ -24,3 +21,5 @@ site.github.owner_url = {{site.github.owner_url}}
 site.github.html_url = {{site.github.html_url}}
 
 site.github.public_repositories.html_url = {{site.github.public_repositories.html_url}}
+
+![test image]({{site.doc_root}}/_posts/2020-06-06-test/pic.jpg)
