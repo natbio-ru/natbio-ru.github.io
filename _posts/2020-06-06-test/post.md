@@ -20,3 +20,7 @@ site.github.public_repositories.svn_url = {{site.github.public_repositories.svn_
 site.github.project_title = {{site.github.project_title}}
 
 site.github.owner_url = {{site.github.owner_url}}
+
+site.github.html_url = {{site.github.html_url}}
+
+site.github.public_repositories.html_url = {{site.github.public_repositories.html_url}}
