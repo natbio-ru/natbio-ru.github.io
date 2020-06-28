@@ -2,6 +2,10 @@
 title: new post alone file
 ---
 
+edit link = {% raw %}{% github_edit_link %}{% endraw %}
+
+edit link 2 = {% raw %}{% github_edit_link "Improve this page" %}{% endraw %}
+
 site.github.url = {{site.github.url}}
 
 site.github.baseurl = {{site.github.baseurl}}
