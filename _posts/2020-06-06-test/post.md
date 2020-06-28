@@ -10,6 +10,8 @@ edit link 2 = {% raw %}{% github_edit_link "Improve this page" %}{% endraw %}
 
 site.github.url = {{site.github.url}}
 
+site.url = {{site.url}}
+
 site.github.baseurl = {{site.github.baseurl}}
 
 site.doc_root = {{site.doc_root}}
