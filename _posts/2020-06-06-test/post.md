@@ -11,4 +11,8 @@ site.github.baseurl = {{site.github.baseurl}}
 
 site.doc_root = {{site.doc_root}}
 
-site.github = {{site.github}}
+site.github.public_repositories.svn_url = {{site.github.public_repositories.svn_url}}
+
+site.github.project_title = {{site.github.project_title}}
+
+site.github.owner_url = {{site.github.owner_url}}
