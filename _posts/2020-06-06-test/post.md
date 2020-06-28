@@ -7,4 +7,4 @@ New post alone file
 
 site.github.url = {{site.github.url}}
 
-site.github.url = {{site.github.baseurl}}
+site.github.baseurl = {{site.baseurl}}
