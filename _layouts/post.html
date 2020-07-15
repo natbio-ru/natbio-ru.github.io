@@ -17,7 +17,7 @@
 			{%- capture i18n_date -%}
 				{%- assign m = page.date | date: "%-m" | minus: 1 -%}
 				{{ page.date | date: "%Y" }}, {{ site.months[m] }}, {{ page.date | date: "%-d" }}
-			{%- endcapture -%}
+			{%- endcapture %}
 			
 			<p class="post__date"><small>{{ i18n_date }}</small></p>
 			
