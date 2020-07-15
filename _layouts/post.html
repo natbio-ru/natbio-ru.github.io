@@ -15,13 +15,13 @@
 			<h3>{{ page.title }}</h3>
 			
 			{%- capture i18n_date -%}
-			{{ post.date | date: "%Y" }},
-			{% assign m = post.date | date: "%-m" | minus: 1 %}
+			{{ page.date | date: "%Y" }},
+			{% assign m = page.date | date: "%-m" | minus: 1 %}
 			{{ site.months[m] }},
-			{{ post.date | date: "%-d" }}			
+			{{ page.date | date: "%-d" }}			
 			{%- endcapture -%}
 			
-			<!-- <p class="post__date"><small>{{ i18n_date }}</small></p> -->
+			<p class="post__date"><small>{{ i18n_date }}</small></p>
 			
 			{{ content }}
 
