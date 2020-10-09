@@ -3,6 +3,8 @@ description:    "Национальная биобезопасность Рос�
 lang:           ru
 doc_root:        https://github.com/natbio-ru/natbio-ru.github.io/raw/master
 
+repository: natbio-ru/natbio-ru.github.io
+
 date_format:    "%b %-d, %Y"
 months:
     - Январь
