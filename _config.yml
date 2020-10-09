@@ -1,9 +1,11 @@
 title:          "Натбио"
 description:    "Национальная биобезопасность России"
 lang:           ru
-doc_root:        https://github.com/natbio-ru/natbio-ru.github.io/raw/master
+doc_root:       https://github.com/natbio-ru/natbio-ru.github.io/raw/master
+root:           https://github.com/pages/natbio-ru/natbio-ru.github.io
 
 repository: natbio-ru/natbio-ru.github.io
+
 
 date_format:    "%b %-d, %Y"
 months:
